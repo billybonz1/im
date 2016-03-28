@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -16,18 +16,382 @@
         
         <div class="top">
             <div class="inner">
-                <nav class="topmenu">
+                <nav class="topmenu left">
                     <li><a href="#">О компании</a></li>
+                    <li><a href="#">Магазины</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Производители</a></li>
+                    <li><a href="#">Возврат</a></li>
+                    <li><a href="#">Контакты</a></li>
                 </nav>
+                <div class="user right">
+                    <a href="#">Вход</a>
+                    /
+                    <a href="#">Регистрация</a>
+                </div>
+                <div class="call right">Обратный звонок</div>
             </div>
         </div>
         
-
+        <div class="top_after">
+            <div class="inner">
+                <a href="#" class="logo left">
+                    Интернет-магазин  <br>
+                    бытовой и инженерной <br>
+                    сантехники
+                </a>
+                <form action="" class="top_search left">
+                    <input type="text" name="q" placeholder="Поиск по сайту">
+                    <input type="submit">
+                </form>
+                <div class="top_contacts right">
+                    <strong>8-800-555-01-00</strong>
+                    <a href="#">info@santech.ru</a><br>
+                    <a href="#">Адреса 4 магазинов</a>
+                </div>
+                <div class="top_contacts right">
+                    <strong>8-800-555-01-00</strong>
+                    <a href="#">info@santech.ru</a><br>
+                    <a href="#">Адреса 4 магазинов</a>
+                </div>
+            </div>
+        </div>
         
+        <div class="middle">
+            <div class="inner">
+                <nav class="middle_menu left">
+                    <li class="catalog-menu">
+                        <a href="#">Каталог товаров</a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="img/middle-menu1.png" alt="">
+                                    <span>Трубы и фитинги</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/middle-menu2.png" alt="">
+                                    <span>Трубы канализационные, <br>соединительные детали и изделия</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/middle-menu3.png" alt="">
+                                    <span>Детали трубопроводов, хомуты <br> и крепеж</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/middle-menu4.png" alt="">
+                                    <span>Запорная арматура и электро- <br>приводы</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/middle-menu5.png" alt="">
+                                    <span>Регулирующая, предохранительная <br>арматура и автоматика</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/middle-menu6.png" alt="">
+                                    <span>Фильтры, грязевики, элеваторы <br>и вохдухоотводчики</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Проектирование</a></li>
+                    <li><a href="#">Аренда оборудования</a></li>
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Доставка</a></li>
+                </nav>
+                <a href="#" class="top-basket right"></a>
+            </div>
+        </div>
+        
+        <div class="main-slider">
+            <div class="inner">
+                <div class="owl-carousel">
+                    <div class="item">
+                        <img src="img/slider1.jpg" alt="">
+                        <div class="slider-title">
+                            <span>большой ассортимент</span> 
+                            <span>товаров</span>
+                        </div>
+                        <div class="slider-info">
+                            Cрок доставки <span class="slider-digit">2-3</span> дня <br>
+                            Самовывоз со склада <br>
+                            <span class="slider-digit">5</span> магазинов по Москве
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/slider1.jpg" alt="">
+                        <div class="slider-title">
+                            <span>большой ассортимент</span> 
+                            <span>товаров</span>
+                        </div>
+                        <div class="slider-info">
+                            Cрок доставки <span class="slider-digit">2-3</span> дня <br>
+                            Самовывоз со склада <br>
+                            <span class="slider-digit">5</span> магазинов по Москве
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <div class="tabs">
+            <div class="inner">
+                <ul>
+                    <li data-tab="tab1" class="active">каталог товаров</li>
+                    <li data-tab="tab2">Инженерная сантехника</li>
+                    <li data-tab="tab3">бытовая сантехника</li>
+                </ul>
+                <div class="tab active" data-tab="tab1">
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <a href="#" class="more">Еще категории</a>
+                </div>
+                <div class="tab" data-tab="tab2">
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                </div>
+                <div class="tab" data-tab="tab3">
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                    <div class="tab-menu">
+                        <img src="img/middle-menu1.png" alt="">
+                        <div class="tab-menu-title">Арматура для отопления</div>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                        <a href="#">Вентили балансировочные</a>
+                    </div>
+                </div>
+                <ul>
+                    <li data-tab="tab1" class="active">каталог товаров</li>
+                    <li data-tab="tab2">Инженерная сантехника</li>
+                    <li data-tab="tab3">бытовая сантехника</li>
+                </ul>
+            </div>
+        </div>
 
+        <div class="brand-slider">
+            <div class="inner">
+                <div class="owl-carousel owl2">
+                    <img src="img/brand1.jpg" alt="">
+                    <img src="img/brand1.jpg" alt="">
+                    <img src="img/brand1.jpg" alt="">
+                    <img src="img/brand1.jpg" alt="">
+                    <img src="img/brand1.jpg" alt="">
+                    <img src="img/brand1.jpg" alt="">
+                    <img src="img/brand1.jpg" alt="">
+                    <img src="img/brand1.jpg" alt="">
+                    <img src="img/brand1.jpg" alt="">
+                    <img src="img/brand1.jpg" alt="">
+                    <img src="img/brand1.jpg" alt="">
+                    <img src="img/brand1.jpg" alt="">
+                    <img src="img/brand1.jpg" alt="">
+                    <img src="img/brand1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="main-news">
+            <div class="inner">
+                <div class="main-new left">
+                    <h3>Стройсиб - лучшее оборудование по низким ценам.</h3>
+                    <p>
+                        В интернет-магазине «СтройСиб» в Москве вы можете купить оборудование для систем 
+                        отопления, водоснабжения, водоотведения (канализации) и сантехники для загородного и частного 
+                        дома, квартир недорого по ценам и стоимости от ведущих зарубежных и отечественных произво-
+                        дителей, в том числе Tiemme, Viega, Rothenberger, Grundfosи и др. Вся продукция имеет соответ-
+                        ствующую сертификацию, отвечает всем нормативным стандартам, гостам и обладает низким про-
+                        центом рекламаций. В каталогах нашего салона собран наиболее широкий ассортимент изделий, 
+                        начиная от недорогих моделей, и заканчивая более дорогостоящими товарами класса Premium. 
+                        При продаже товара нашим оптовым и розничным клиентам, каждый из них также могут оформить 
+                        доставку в любую точку Москвы и области, в удобное время. Мы – ваш надежный партнер. 
+                        В онлайн магазине «СтройСиб» вы найдете лучшие отопительные системы для дома, инсталляции, 
+                        сливную арматуру и водопроводные комплектующие недорого по стоимости.
+                    </p>
+                    <p>
+                        Наша компания уже много лет работает на рынке инженерных систем, и за эти годы смогла нала-
+                        дить индивидуальные партнерские отношение с проверенными поставщиками продукции и брен-
+                        довыми производителями, благодаря чему мы можем гарантировать отличную цену изделий, при 
+                        неизменно высоком качестве. рассчитывать на качественный сервис, своевременную обработку 
+                        заказа и выполнение наших обязательств в полном объеме.
+                    </p>
+                    <a href="#" class="more">Узнать больше</a>
+                </div>
+                <div class="articles right">
+                    <h3>Статьи</h3>
+                    <div class="article">
+                        <img src="img/article1.jpg" alt="">
+                        <div class="article-text">
+                            <h4>Как сделать правильный дренаж на участке</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <img src="img/article1.jpg" alt="">
+                        <div class="article-text">
+                            <h4>Как сделать правильный дренаж на участке</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                        </div>
+                    </div>
+                    <a href="#" class="more">Все статьи</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <footer>
+            <div class="inner">
+                <nav class="topmenu">
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Магазины</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Производители</a></li>
+                    <li><a href="#">Возврат</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </nav>
+                <a href="#" class="logo">
+                    Интернет-магазин  <br>
+                    бытовой и инженерной <br>
+                    сантехники
+                </a>
+            </div>
+        </footer>
         <script src="js/main.js"></script>
     </body>
 </html>
